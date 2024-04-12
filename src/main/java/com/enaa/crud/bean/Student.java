@@ -1,7 +1,7 @@
-package com.enaa.crud.model;
+package com.enaa.crud.bean;
 
 public class Student {
-	private int id;
+	private int studentId;
 	private String firstName;
 	private String lastName;
 	private String email;
@@ -10,20 +10,20 @@ public class Student {
 		super();
 	}
 
-	public Student(int id, String firstName, String lastName, String email) {
+	public Student(int studentId, String firstName, String lastName, String email) {
 		super();
-		this.id = id;
+		this.studentId = studentId;
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.email = email;
 	}
 
 	public int getId() {
-		return id;
+		return studentId;
 	}
 
-	public void setId(int id) {
-		this.id = id;
+	public void setId(int studentId) {
+		this.studentId = studentId;
 	}
 
 	public String getFirstName() {
